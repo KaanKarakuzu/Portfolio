@@ -28,22 +28,30 @@ img {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 2em;
+    display: grid;
+    padding: 1em 1em 1em 2em;
 
     .logo {
+        justify-self: start;
         color: #00F7FF;
         font-weight: bold;
+        //font-size: 1.2em;
     }
 
+    .university{
+        color:#E5D5FA;
+        font-size: 0.85em;
+    }
 
+    nav {
+        justify-self: center;
+    }
     ul{
-         display: flex;
-
+        display: flex;
+        padding-top: 1em;
         a{
-             display: block;
-             padding: 0 1em;
+            display: block;
+            padding: 0 1em;
          }
       }
 }
@@ -159,12 +167,37 @@ section{
 }
 
 .portfolio-container a img {
-    border-radius: 1em;
-    margin-bottom: 2em;
+    border-radius: .75em;
+    margin-bottom: 4em;
 }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 768px){
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 2em 2em 2em 4em;
     
+        .logo {
+            color: #00F7FF;
+            font-weight: bold;
+            //font-size: 1.2em;
+        }
+    
+        .university{
+            color:#E5D5FA;
+            font-size: 0.85em;
+        }
+    
+    
+        ul{
+            display: flex;
+            padding-top: .5em;
+            a{
+                display: block;
+                padding: 0 1em;
+             }
+          }
+    }
     .featured, .portfolio {
         text-align: left;
     }
