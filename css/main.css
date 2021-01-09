@@ -154,11 +154,13 @@ section {
 }
 
 .skills-container ul li .icon-container.one {
-  width: 100%;
+  width: 25%;
+  margin-bottom: 0em;
 }
 
 .skills-container ul li .icon-container.two {
   width: 100%;
+  margin-bottom: -.1em;
 }
 
 .skills-container ul li .icon-container.three {
@@ -266,7 +268,7 @@ section {
     padding: 2em 2em 2em 4em;
   }
   .social-header {
-    padding: 2em 4em 2em 0;
+    padding: 2.5em 4em 2em 0;
   }
   section {
     padding: 4em;
@@ -285,7 +287,7 @@ section {
     float: right;
   }
   .social-header ul img {
-    width: 20px;
+    width: 25px;
   }
   .hero {
     display: -ms-grid;
@@ -323,7 +325,7 @@ section {
     padding: 2em 2em 2em 10em;
   }
   .social-header {
-    padding: 2em 10em 2em 0;
+    padding: 2.5em 10em 2em 0;
   }
   section {
     padding: 10em 10em 4em 10em;
@@ -338,7 +340,7 @@ section {
     padding: 2em 2em 2em 20em;
   }
   .social-header {
-    padding: 2em 20em 2em 0;
+    padding: 2.5em 20em 2em 0;
   }
   section {
     padding: 6em 20em 4em 20em;
