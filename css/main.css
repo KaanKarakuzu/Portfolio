@@ -51,9 +51,7 @@ header nav {
 }
 
 header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   padding-top: 1em;
 }
 
@@ -203,9 +201,7 @@ section {
     font-size: 0.85em;
   }
   header ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     padding-top: .5em;
   }
   header ul a {
